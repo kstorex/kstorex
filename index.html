@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>KstoreX</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:18px;
+  font-family:Arial,sans-serif;
+  background:#f1f4f8;
+}
+
+.kx-main{
+  position:relative;
+  overflow:hidden;
+  width:100%;
+  max-width:470px;
+  padding:34px 20px 25px;
+  text-align:center;
+  background:
+    radial-gradient(circle at 0% 0%,rgba(30,105,240,.18),transparent 30%),
+    radial-gradient(circle at 100% 100%,rgba(145,55,255,.16),transparent 32%),
+    #fff;
+  border:1px solid #e2e6ed;
+  border-radius:24px;
+  box-shadow:0 18px 50px rgba(20,30,50,.10);
+}
+
+.kx-logo{
+  width:105px;
+  height:105px;
+  margin:0 auto 18px;
+  border-radius:25px;
+  object-fit:cover;
+  box-shadow:0 10px 25px rgba(0,0,0,.13);
+}
+
+.kx-name{
+  color:#111722;
+  font-size:30px;
+  font-weight:900;
+  letter-spacing:-1px;
+}
+
+.kx-name span{
+  color:#1769e8;
+}
+
+.kx-title{
+  margin-top:8px;
+  color:#252b35;
+  font-size:15px;
+  font-weight:800;
+}
+
+.kx-desc{
+  max-width:380px;
+  margin:12px auto 23px;
+  color:#687180;
+  font-size:12px;
+  line-height:1.7;
+  font-weight:600;
+}
+
+.kx-desc b{
+  color:#303744;
+}
+
+.kx-download{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:9px;
+  width:100%;
+  height:52px;
+  border-radius:14px;
+  text-decoration:none;
+  color:#fff;
+  background:linear-gradient(135deg,#1769e8,#633cf0);
+  font-size:13px;
+  font-weight:900;
+  box-shadow:0 9px 22px rgba(49,91,220,.23);
+  transition:.2s;
+}
+
+.kx-download i{
+  font-size:16px;
+}
+
+.kx-download:active{
+  transform:scale(.97);
+}
+
+.kx-note{
+  margin-top:15px;
+  color:#9aa1ad;
+  font-size:9px;
+  font-weight:700;
+}
+
+.kx-note i{
+  margin-right:4px;
+  color:#1769e8;
+}
+</style>
+</head>
+
+<body>
+
+<div class="kx-main">
+
+  <!-- তোমার icon.png এখানে রাখবে -->
+  <img src="icon.png" class="kx-logo" alt="KstoreX">
+
+  <div class="kx-name">
+    <span>Kstore</span>X
+  </div>
+
+  <div class="kx-title">
+    Your Simple App & Digital Store
+  </div>
+
+  <div class="kx-desc">
+    Welcome to <b>KstoreX</b> — discover useful apps, tools and
+    digital content in one simple place. Browse our collection,
+    find what you need and download your favorite content quickly
+    with a clean and easy-to-use experience.
+  </div>
+
+  <!-- Download link এখানে পরিবর্তন করবে -->
+  <a href="YOUR-DOWNLOAD-LINK" class="kx-download">
+    <i class="fa-solid fa-download"></i>
+    Download Now
+  </a>
+
+  <div class="kx-note">
+    <i class="fa-solid fa-shield-halved"></i>
+    Fast • Simple • Mobile Friendly
+  </div>
+
+</div>
+
+</body>
+  </html>
